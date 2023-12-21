@@ -1,26 +1,33 @@
-# Java Problem (Error): undeclare identifier, assertion error, undetected assets
+# Java Problem (Error): undeclare identifier, assertion error, and undetected assets
 
+## If u found the error, please contact me on DISCORD. my username: gerrardsquins (ill read ur message as fast as possible i can.)
 
   
 ## SOURCE CODE (THE POTENTIAL ERROR)
+
 package renderer;
 
 import components.SpriteRenderer;
+
 import jade.Window;
+
 import org.joml.Vector4f;
+
 import org.lwjgl.opengl.GL;
 
 import javax.swing.*;
 
 import static org.lwjgl.opengl.GL15.*;
+
 import static org.lwjgl.opengl.GL20.*;
+
 import static org.lwjgl.opengl.GL30.glBindVertexArray;
+
 import static org.lwjgl.opengl.GL30.glGenVertexArrays;
 
 public class RenderBatch {
 
     // Vertex
-
     // Pos                  Color
     // float, float         float, float, float, float
     private final int POS_SIZE = 2;
