@@ -1,6 +1,8 @@
-Java Problem (Error): undeclare identifier, assertion error, undetected assets
+# Java Problem (Error): undeclare identifier, assertion error, undetected assets
+
+
   
-SOURCE CODE (THE POTENTIAL ERROR)
+## SOURCE CODE (THE POTENTIAL ERROR)
 package renderer;
 
 import components.SpriteRenderer;
@@ -184,13 +186,10 @@ public class RenderBatch {
 
     private boolean hasRoom(){
         return this.hasRoom;
-    }
-}
+    }}
 
 
-Maybe The Error Is On There?
-
-LOG ERROR (Software used: Intellij Idea)
+# LOG ERROR (Software used: Intellij Idea)
 
 > Task :Main.main() FAILED
 Hello LWJGL 3.3.3+5!
@@ -228,19 +227,15 @@ For more on this, please refer to https://docs.gradle.org/8.2/userguide/command_
 BUILD FAILED in 911ms
 2 actionable tasks: 1 executed, 1 up-to-date
 
-
+### Descriptions
 My Program just got the Assertion Error, Undeclared identifier, and cannot detect the assets. i just confused with my error and already try to solved it on 2 days but i still didn't found what the solution, maybe u guys can help me to solve my problem, thanks.
 
 Based on the log error, Maybe the problem is in Shader class or RenderBatch class or Renderer class or Scene class or Window class or on the build gradle or on the glsl default shader assets. I think the default.glsl file is not readed by the code because it maybe takes more initialization or something maybe?
 
-MY CODE DOCUMENTATIONS:[GitHub](https://github.com/gerrardgs/Java-Heritage/tree/main/Java-Project/Projects)
+MY CODE DOCUMENTATIONS: [GitHub](https://github.com/gerrardgs/Java-Heritage/tree/main/Java-Project/Projects)
 
 Full Code Documentations: [GitHub](https://github.com/codingminecraft/MarioYoutube/tree/master)
 
 SOURCE: [FreeCodeCampYouTube](https://youtu.be/025QFeZfeyM?feature=shared)
 
-#gradle
-#java
-#glsl
-#lwjgl
-#opengl
+#### Tags: #gradle #java #glsl #lwjgl #opengl
